@@ -367,10 +367,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"
+                                "Health", url="https://t.me/Aniebots"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu"
+                                "Disaster", url="https://t.me/Aniebots"
                             ),
                         ],
                     ]
@@ -387,10 +387,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"
+                                "Health", url="https://t.me/Denvil_bots"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu"
+                                "Disaster", url="https://t.me/Denvil_bots"
                             ),
                         ],
                     ]
@@ -466,7 +466,7 @@ def set_about_me(update: Update, context: CallbackContext):
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
     stats = (
-        "❂ <b>Stats For <a href='https://t.me/SkyzuRobot'>Skyzu Robot</a>:</b>\n"
+        "❂ <b>Stats For <a href='https://t.me/Anierobot_bot'>Anie Robot</a>:</b>\n"
         + "\n".join([mod.__stats__() for mod in STATS])
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
@@ -515,7 +515,7 @@ def set_about_bio(update: Update, context: CallbackContext):
             )
             return
 
-        if user_id in [777000, 1087968824] and sender_id not in DEV_USERS:
+        if user_id in [777000, 1950983583] and sender_id not in DEV_USERS:
             message.reply_text("You are not authorised")
             return
 
