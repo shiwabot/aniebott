@@ -464,7 +464,7 @@ def Skyzu_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="t.me/Aniebotsupports),
+                        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="t.me/Aniebotsupports"),
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs​", url="https://t.me/Denvil_bots"
                         ),
@@ -484,7 +484,7 @@ def Skyzu_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Denvil", url="t.me/xdenvil"),
+                        InlineKeyboardButton(text="Denvil", url="t.me/Denvil_pro"),
                     ],
                     [
                         InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
