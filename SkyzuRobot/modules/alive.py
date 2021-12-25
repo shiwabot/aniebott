@@ -14,7 +14,7 @@ PHOTO = "https://telegra.ph/file/fa109566a6983ff1b7173.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Skyzu Robot.** \n\n"
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Anie Robot.** \n\n"
     TEXT += "⚪ **I'm Working Properly** \n\n"
     TEXT += f"⚪ **My Master : [Denvil](https://t.me/Denvil_pro)** \n\n"
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
