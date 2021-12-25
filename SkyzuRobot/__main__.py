@@ -84,7 +84,7 @@ PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
 ✪ I'm an anime theme bot designed to help manage your telegram group with a lot features.
-✪ Maintained by @xdenvil ✨
+✪ Maintained by @Denvil_pro ✨
 ────────────────────────
 Hit the /help to see available command.
 """
@@ -458,15 +458,15 @@ def Skyzu_about_callback(update, context):
         )
     elif query.data == "Skyzu_support":
         query.message.edit_text(
-            text="*๏ Skyzu support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Skyzu.",
+            text="*๏ Anie support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Anie.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="t.me/skyzusupport"),
+                        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="t.me/Aniebotsupports),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs​", url="https://t.me/ProjectSkyzu"
+                            text="ᴜᴘᴅᴀᴛᴇs​", url="https://t.me/Denvil_bots"
                         ),
                     ],
                     [
