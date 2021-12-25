@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, Integer
 
-from SungJinwooRobot.modules.sql import BASE, SESSION
+from SkyzuRobot.modules.sql import BASE, SESSION
 
 
 class Mods(BASE):
