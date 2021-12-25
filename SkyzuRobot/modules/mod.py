@@ -1,4 +1,3 @@
-// credits by moezilla
 
 import html
 
