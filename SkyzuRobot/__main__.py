@@ -543,7 +543,7 @@ def yurikorobot_about_callback(update, context):
                     InlineKeyboardButton(text="Anon", url="t.me/noobanon"),
                  ],
                  [
-                    InlineKeyboardButton(text="satwik", url="t.me/okay_retard"),
+                    InlineKeyboardButton(text="DONATE💝", url="t.me/Denvil_pro"),
                     InlineKeyboardButton(text="Anieteam", url="https://t.me/Anieteam"),
                  ],
                  [
