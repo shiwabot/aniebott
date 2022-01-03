@@ -33,8 +33,8 @@ from telegram.ext.callbackcontext import CallbackContext
 from telegram.ext.filters import Filters
 from telegram.parsemode import ParseMode
 
-from Cutiepii_Robot import OWNER_ID, updater, dispatcher
-from Cutiepii_Robot.modules.disable import DisableAbleCommandHandler
+from SkyzuRobot import OWNER_ID, updater, dispatcher
+from SkyzuRobot.modules.disable import DisableAbleCommandHandler
 
 
 job_queue = updater.job_queue
